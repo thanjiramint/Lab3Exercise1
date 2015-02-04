@@ -75,7 +75,7 @@
         android:id="@+id/button2"
         android:layout_above="@+id/button"
         android:layout_alignParentStart="true"
-        android:onClick="buttonClicked" />
+        android:onClick="courseActClicked" />
 
     <Button
         android:layout_width="match_parent"
@@ -84,5 +84,5 @@
         android:id="@+id/button4"
         android:layout_above="@+id/button2"
         android:layout_alignParentStart="true"
-        android:onClick="buttonClicked" />
+        android:onClick="courseListClicked" />
 </RelativeLayout>
